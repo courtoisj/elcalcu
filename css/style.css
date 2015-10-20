@@ -17,4 +17,5 @@
 #newLogoForm,
 #newPrintForm,
 #newPhotoForm,
-#newTextForm {display: none;}
+#newTextForm,
+#portraits {display: none;}

@@ -43,6 +43,15 @@
 		}
 	});
 
+	/* SWITCH */
+	$('#swt-portraits').click(function() {
+		if( $(this).is(':checked')) {
+			$("#portraits").show();
+		} else {
+			$("#portraits").hide();
+		}
+	});
+
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
