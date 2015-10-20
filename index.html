@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<title>Angebot Generator</title>
+
+	<!-- CSS  -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+	<div class="container">
+		<div class="section">
+			<div class="row">
+				<div class="col s12">
+					<h1 class="center light">el Elefante Angebot Generator</h1>
+					<h2 class="center thin">Preise schnell errechnen</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<div class="row">
+				<form class="col s12">
+					
+					<div class="row">
+						<div class="col s12">
+							<h3 class="thin">Kundendaten</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="customer" type="text" class="validate">
+							<label for="customer">Kundenname</label>
+						</div>
+
+						<div class="input-field col s12">
+							<input id="email" type="email" class="validate">
+							<label for="email" data-error="wrong" data-success="right">Email</label>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="input-field col s12">
+							<textarea id="address" class="materialize-textarea"></textarea>
+							<label for="address">Anschrift</label>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="switch">
+							<label>
+								<input type="checkbox">
+								<span class="lever"></span>
+								Existenzgründer Rabatt
+							</label>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col s12">
+							<h3 class="thin">Projekt</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s6 m4 l2">
+							<p>
+								<input type="checkbox" class="filled-in" id="chk-newsite" />
+								<label for="chk-newsite">Website</label>
+							</p>
+						</div>
+						<div class="col s6 m4 l2">
+							<p>
+								<input type="checkbox" class="filled-in" id="chk-newlogo" />
+								<label for="chk-newlogo">Logo</label>
+							</p>
+						</div>
+						<div class="col s6 m4 l2">
+							<p>
+								<input type="checkbox" class="filled-in" id="chk-newprint" />
+								<label for="chk-newprint">Print</label>
+							</p>
+						</div>
+						<div class="col s6 m4 l2">
+							<p>
+								<input type="checkbox" class="filled-in" id="chk-newphoto" />
+								<label for="chk-newphoto">Fotografie</label>
+							</p>
+						</div>
+						<div class="col s6 m4 l2">
+							<p>
+								<input type="checkbox" class="filled-in" id="chk-newtext" />
+								<label for="chk-newtext">Texte</label>
+							</p>
+						</div>
+						
+					</div>
+
+					<div id="newWebsiteForm" class="row">
+						<div class="col s12">
+							<h3 class="thin">Website</h3>
+						</div>
+						<div class="col s12">
+							<h4 class="thin">Seitentypen</h4>
+							<p><a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a> Seitentyp hinzufügen</p>
+						</div>
+					</div>
+
+					<div id="newLogoForm" class="row">
+						<div class="col s12">
+							<h3 class="thin">Logo</h3>
+						</div>
+					</div>
+
+					<div id="newPrintForm" class="row">
+						<div class="col s12">
+							<h3 class="thin">Print</h3>
+						</div>
+					</div>
+
+					<div id="newPhotoForm" class="row">
+						<div class="col s12">
+							<h3 class="thin">Fotografie</h3>
+						</div>
+					</div>
+
+					<div id="newTextForm" class="row">
+						<div class="col s12">
+							<h3 class="thin">Texte</h3>
+						</div>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer class="page-footer orange">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Company Bio</h5>
+					<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+				</div>
+				<div class="col l3 s12">
+					<h5 class="white-text">Settings</h5>
+					<ul>
+						<li><a class="white-text" href="#!">Link 1</a></li>
+						<li><a class="white-text" href="#!">Link 2</a></li>
+						<li><a class="white-text" href="#!">Link 3</a></li>
+						<li><a class="white-text" href="#!">Link 4</a></li>
+					</ul>
+				</div>
+				<div class="col l3 s12">
+					<h5 class="white-text">Connect</h5>
+					<ul>
+						<li><a class="white-text" href="#!">Link 1</a></li>
+						<li><a class="white-text" href="#!">Link 2</a></li>
+						<li><a class="white-text" href="#!">Link 3</a></li>
+						<li><a class="white-text" href="#!">Link 4</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+			Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<!--  Scripts-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+
+	</body>
+</html>
