@@ -18,4 +18,6 @@
 #newPrintForm,
 #newPhotoForm,
 #newTextForm,
-#portraits {display: none;}
+#portraits,
+#businessphotography,
+#architecturephotography {display: none;}
