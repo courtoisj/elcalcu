@@ -3,6 +3,8 @@
 
     $('.button-collapse').sideNav();
 
+    /* LEISTUNGEN */
+
 	$('#chk-newsite').click(function() {
 		if( $(this).is(':checked')) {
 			$("#newWebsiteForm").show();
@@ -43,12 +45,28 @@
 		}
 	});
 
-	/* SWITCH */
+	/* LEISTUNGEN: FOTOGRAFIE */
 	$('#swt-portraits').click(function() {
 		if( $(this).is(':checked')) {
 			$("#portraits").show();
 		} else {
 			$("#portraits").hide();
+		}
+	});
+
+	$('#swt-businessphotography').click(function() {
+		if( $(this).is(':checked')) {
+			$("#businessphotography").show();
+		} else {
+			$("#businessphotography").hide();
+		}
+	});
+
+	$('#swt-architecturephotography').click(function() {
+		if( $(this).is(':checked')) {
+			$("#architecturephotography").show();
+		} else {
+			$("#architecturephotography").hide();
 		}
 	});
 

@@ -127,42 +127,65 @@
 						<div class="col s12">
 							<h3 class="thin">Fotografie</h3>
 						</div>
+
+						<div class="row">
 						
-						<div class="col s12">
-							<div class="switch">
-								<label>
-									<input id="swt-portraits" type="checkbox">
-									<span class="lever"></span>
-									Portraits
-								</label>
+							<div class="col s4">
+								<div class="switch">
+									<label>
+										<input id="swt-portraits" type="checkbox">
+										<span class="lever"></span>
+										Portraits
+									</label>
+								</div>
+							</div>
+							<div class="col s4">
+								<div class="switch">
+									<label>
+										<input id="swt-businessphotography" type="checkbox">
+										<span class="lever"></span>
+										Business Fotografie
+									</label>
+								</div>
+							</div>
+							<div class="col s4">
+								<div class="switch">
+									<label>
+										<input id="swt-architecturephotography" type="checkbox">
+										<span class="lever"></span>
+										Architektur Fotografie
+									</label>
+								</div>
 							</div>
 						</div>
 
 						<!-- Portraits -->
 						<div id="portraits" class="row">
+							<h4 class="thin">Portraits</h4>
 							
-							<div class="input-field col s4">
+							<div class="input-field col s6 m4">
 								<div class="input-field">
 									<input id="num-portraits" type="text" class="validate">
 									<label for="num-portraits">Anzahl der Personen</label>
 								</div>
 							</div>
 
-							<div class="input-field col s4">
+							<div class="input-field col s6 m4">
 								<div class="input-field">
 									<input id="num-portraits-minutes-per-person" type="text" class="validate">
 									<label for="num-portraits-minutes-per-person">Minuten pro Person</label>
 								</div>
 							</div>
 
-							<div class="input-field col s4">
+							<div class="input-field col s12 m4">
 								<div class="input-field">
 									<input id="num-portraits-per-person" type="text" class="validate">
-									<label for="num-portraits-per-person">Fotos / Person</label>
+									<label for="num-portraits-per-person">Fotos pro Person</label>
 								</div>
 							</div>
 
-							<div class="col s6 m4">
+							<div class="col s12 m6 l4">
+								<h4 class="thin">Shooting Location</h4>
 								<p>
 									<input name="portrait-location" type="radio" id="location-studio" />
 									<label for="location-studio">Studio</label>
@@ -176,6 +199,101 @@
 									<label for="location-outdoor">Outdoor</label>
 								</p>
 							</div>
+
+							<div class="col s12 m6 l4">
+								<h4 class="thin">Nutzungsrechte</h4>
+								<p>
+									<input name="portrait-usage" type="radio" id="portrait-usage-webprint" />
+									<label for="portrait-usage-webprint">Web und Print</label>
+								</p>
+								<p>
+									<input name="portrait-usage" type="radio" id="portrait-usage-web" />
+									<label for="portrait-usage-web">Web</label>
+								</p>
+								<p>
+									<input name="portrait-usage" type="radio" id="portrait-usage-print" />
+									<label for="portrait-usage-print">Print</label>
+								</p>
+							</div>
+
+							<div class="col s12 l4">
+								<h5 class="thin">Bereitstellung</h5>
+								<div class="switch">
+									<label>
+										<input id="swt-delivery" type="checkbox" checked="checked">
+										<span class="lever"></span>
+										Download / CD-DVD
+									</label>
+								</div>
+							</div>
+							<br/>
+							<br/>
+							<div class="col s12">
+								<h5 class="light right">Summe: €420,00 zzgl. USt.</h5>
+							</div>
+						</div>
+
+						<!-- Business Fotografie -->
+						<div id="businessphotography" class="row">
+							<h4 class="thin">Business Fotografie</h4>
+
+							<div class="input-field col s6 m4">
+								<div class="input-field">
+									<input id="num-businessphotography-locations" type="text" class="validate">
+									<label for="num-businessphotography-location">Anzahl der Standorte</label>
+								</div>
+							</div>
+
+							<div class="input-field col s6 m4">
+								<div class="input-field">
+									<input id="num-businessphotography-minutes-per-location" type="text" class="validate">
+									<label for="num-businessphotography-minutes-per-location">Minuten pro Standort</label>
+								</div>
+							</div>
+
+							<div class="input-field col s12 m4">
+								<div class="input-field">
+									<input id="num-businessphotography-per-location" type="text" class="validate">
+									<label for="num-businessphotography-per-location">Fotos pro Standort</label>
+								</div>
+							</div>
+
+							<div class="col s12 m6 l4">
+								<h4 class="thin">Nutzungsrechte</h4>
+								<p>
+									<input name="businessphotography-usage" type="radio" id="businessphotography-usage-webprint" />
+									<label for="businessphotography-usage-webprint">Web und Print</label>
+								</p>
+								<p>
+									<input name="businessphotography-usage" type="radio" id="businessphotography-usage-web" />
+									<label for="businessphotography-usage-web">Web</label>
+								</p>
+								<p>
+									<input name="businessphotography-usage" type="radio" id="businessphotography-usage-print" />
+									<label for="businessphotography-usage-print">Print</label>
+								</p>
+							</div>
+
+							<div class="col s12 l4">
+								<h5 class="thin">Bereitstellung</h5>
+								<div class="switch">
+									<label>
+										<input id="swt-businessphotography-delivery" type="checkbox" checked="checked">
+										<span class="lever"></span>
+										Download / CD-DVD
+									</label>
+								</div>
+							</div>
+
+							<br/>
+							<br/>
+							<div class="col s12">
+								<h5 class="light right">Summe: €420,00 zzgl. USt.</h5>
+							</div>
+						</div>
+
+						<div id="architecturephotography" class="row">
+							<h4 class="thin">Architektur Fotograife</h4>
 						</div>
 					</div>
 
